@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: gray;
+    padding: 43px;
+    height: 100svh;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 30px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+ /* background-color: yellow;  */
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+   /* background-color: red;*/
+    height: 45vh;
+    width: 60vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-size: 60px;
+}
+
+.name{
+    font-size: 65px;
+    font-weight: bold;
+}
+
+.about{
+    font-size: 50px;
+}
+.moreaboutme{
+    font-size: 29px;
+    margin-top: 23px;
+}
+.buttons{
+    margin-top: 34px;
+}
+.buttons button{
+padding: 10px 14px;
+border-radius: 22px;
+color: white;
+background-color: dodgerblue;
+font-weight: bold;
+font-size: 21px;
+margin: 0 3px;
+cursor: pointer; 
+}
+.buttons button:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+.btn-sm{
+    font-size: 14px;
+    padding: 10px 19px;
+    margin: 12px 0;
+}
+
+.devpic img{
+    width: 138px;
+}
+.contactform{
+    padding: 0 34px;
+    padding-top: 144px;
+
+
+}
+.contactform h1{
+    text-align: center; 
+    }
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.contactform form div input{
+    width: 16vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+
+}
+#emailhelp{
+    font-size: 8px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+    
+}
+
+#form-check{
+    flex-direction: row;
+
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+
+.intro h2{
+    margin: 0 12px;
+}
+
+.skillcontainer{
+   padding: 12px;
+}
+.skillitem{
+    display:flex
+}
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: red;
+}
+.h100{
+    width: 265px;
+    background-color: blue;
+}
+t2{
+    width: 125px;
+    background-color:yellow;
+}
+t4{
+    width: 100px;
+    background-color:royalblue
+}
+
